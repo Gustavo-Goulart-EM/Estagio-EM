@@ -1,0 +1,24 @@
+C:\Users\Escolar Manager\Documents\gustavo.goulart\EM.Domain\bin\Debug\EM.Domain.dll
+C:\Users\Escolar Manager\Documents\gustavo.goulart\EM.Domain\bin\Debug\EM.Domain.pdb
+C:\Users\Escolar Manager\Documents\gustavo.goulart\EM.Domain\obj\Debug\EM.Domain.csproj.AssemblyReference.cache
+C:\Users\Escolar Manager\Documents\gustavo.goulart\EM.Domain\obj\Debug\EM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Escolar Manager\Documents\gustavo.goulart\EM.Domain\obj\Debug\EM.Domain.dll
+C:\Users\Escolar Manager\Documents\gustavo.goulart\EM.Domain\obj\Debug\EM.Domain.pdb
+C:\Users\Escolar Manager\Desktop\Copia Codigo\EM.Domain\bin\Debug\EM.Domain.dll
+C:\Users\Escolar Manager\Desktop\Copia Codigo\EM.Domain\bin\Debug\EM.Domain.pdb
+C:\Users\Escolar Manager\Desktop\Copia Codigo\EM.Domain\obj\Debug\EM.Domain.csproj.AssemblyReference.cache
+C:\Users\Escolar Manager\Desktop\Copia Codigo\EM.Domain\obj\Debug\EM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Escolar Manager\Desktop\Copia Codigo\EM.Domain\obj\Debug\EM.Domain.dll
+C:\Users\Escolar Manager\Desktop\Copia Codigo\EM.Domain\obj\Debug\EM.Domain.pdb
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Código atual\EM.Domain\bin\Debug\EM.Domain.dll
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Código atual\EM.Domain\bin\Debug\EM.Domain.pdb
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Código atual\EM.Domain\obj\Debug\EM.Domain.csproj.AssemblyReference.cache
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Código atual\EM.Domain\obj\Debug\EM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Código atual\EM.Domain\obj\Debug\EM.Domain.dll
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Código atual\EM.Domain\obj\Debug\EM.Domain.pdb
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Projeto WindowsForms - Cópia\EM.Domain\obj\Debug\EM.Domain.csproj.AssemblyReference.cache
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Projeto WindowsForms - Cópia\EM.Domain\obj\Debug\EM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Projeto WindowsForms - Cópia\EM.Domain\obj\Debug\EM.Domain.dll
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Projeto WindowsForms - Cópia\EM.Domain\obj\Debug\EM.Domain.pdb
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Projeto WindowsForms - Cópia\EM.Domain\bin\Debug\EM.Domain.dll
+C:\Users\Escolar Manager\Documents\gustavo.goulart\Projeto WindowsForms - Cópia\EM.Domain\bin\Debug\EM.Domain.pdb

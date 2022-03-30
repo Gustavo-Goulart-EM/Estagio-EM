@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ca4bdd4d-c06e-4bb5-8c22-e33517573525": {
+      "ProjectGuid": "ca4bdd4d-c06e-4bb5-8c22-e33517573525",
+      "DisplayName": "EM.WindowsForms",
+      "ColorIndex": 0
+    },
+    "ac116010-173a-43c9-a9a8-aafa3a7d7a2a": {
+      "ProjectGuid": "ac116010-173a-43c9-a9a8-aafa3a7d7a2a",
+      "DisplayName": "EM.Repository",
+      "ColorIndex": 1
+    },
+    "ec4aa25c-4bad-4ef2-881e-8f38077af51d": {
+      "ProjectGuid": "ec4aa25c-4bad-4ef2-881e-8f38077af51d",
+      "DisplayName": "EM.Domain",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d1ec3a02-d202-4212-b62d-336a38fbae10": {
+      "ProjectGuid": "d1ec3a02-d202-4212-b62d-336a38fbae10",
+      "DisplayName": "EM.Domain",
+      "ColorIndex": 3
+    },
+    "a1169990-71fa-4dd5-9c77-611ea235ba53": {
+      "ProjectGuid": "a1169990-71fa-4dd5-9c77-611ea235ba53",
+      "DisplayName": "EM.Repository",
+      "ColorIndex": 4
+    },
+    "7e111cb1-8a4c-4287-a1a2-49a502cb75aa": {
+      "ProjectGuid": "7e111cb1-8a4c-4287-a1a2-49a502cb75aa",
+      "DisplayName": "EM.Repository.Testes",
+      "ColorIndex": 5
+    },
+    "c181d156-a44f-4118-a66a-aaab67ac27e7": {
+      "ProjectGuid": "c181d156-a44f-4118-a66a-aaab67ac27e7",
+      "DisplayName": "EM.Domain.Testes",
+      "ColorIndex": 6
+    },
+    "801a4688-10db-477e-a79b-6d05ca960c9e": {
+      "ProjectGuid": "801a4688-10db-477e-a79b-6d05ca960c9e",
+      "DisplayName": "Escolar Manager",
+      "ColorIndex": 7
+    },
+    "1cef5f9c-c55d-434b-9433-bfe316b08ce6": {
+      "ProjectGuid": "1cef5f9c-c55d-434b-9433-bfe316b08ce6",
+      "DisplayName": "Escolar Manager",
+      "ColorIndex": 8
+    },
+    "9bb3032f-e709-47b8-9215-621586857c74": {
+      "ProjectGuid": "9bb3032f-e709-47b8-9215-621586857c74",
+      "DisplayName": "Escolar Manager",
+      "ColorIndex": 9
+    },
+    "4f0dfc8b-8625-4efc-bfd8-f76f46dea260": {
+      "ProjectGuid": "4f0dfc8b-8625-4efc-bfd8-f76f46dea260",
+      "DisplayName": "Escolar Manager",
+      "ColorIndex": 10
+    }
+  },
+  "NextColorIndex": 11
+}
