@@ -1,0 +1,129 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.editarExcluir a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.editarExcluir {
+    vertical-align: bottom;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#divBusca {
+    position: relative;
+    border-radius: 10px;
+    width: 600px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 191px;
+}
+
+#btnBusca {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#searchbar {
+    float: left;
+    margin-left: 15%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.icon {
+    margin: 6px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@import "bootstrap";
+.btn-dark {
+    background-color: #128C7E !important;
+    border-color: black !important;
+    color: white !important;
+}
+
+    .btn-dark:focus {
+        box-shadow: 0 0 0 2.8px #66BAB2 !important;
+    }
+
+.btn-danger {
+    background-color: #898F9C !important;
+    border-color: black !important;
+    color: white !important;
+    box-shadow: #898F9C !important;
+}
+
+    .btn-danger:focus {
+        box-shadow: 0 0 0 2.8px #C7D4D0 !important;
+    }
+
+.nav-item {
+    font-size: 18px;
+}
+
+/* Style the form - display items horizontally */
+.form-inline {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/* Style the input fields */
+.form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) 
+{
+    .form-inline input
+    {
+        margin: 10px 0;
+    }
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

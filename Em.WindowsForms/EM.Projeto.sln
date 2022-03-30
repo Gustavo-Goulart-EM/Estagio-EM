@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM.Domain", "..\EM.Domain\E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EM.Repository", "..\EM.Repository\EM.Repository.csproj", "{A1169990-71FA-4DD5-9C77-611EA235BA53}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Escolar Manager", "..\..\WebTeste - Separado - Copia\WebTeste1\Escolar Manager.csproj", "{4F0DFC8B-8625-4EFC-BFD8-F76F46DEA260}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Escolar Manager", "..\WebTeste - Separado - Copia\WebTeste1\Escolar Manager.csproj", "{F2BA6C9B-FD42-4965-88A6-AD85228443A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{A1169990-71FA-4DD5-9C77-611EA235BA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1169990-71FA-4DD5-9C77-611EA235BA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1169990-71FA-4DD5-9C77-611EA235BA53}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F0DFC8B-8625-4EFC-BFD8-F76F46DEA260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F0DFC8B-8625-4EFC-BFD8-F76F46DEA260}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F0DFC8B-8625-4EFC-BFD8-F76F46DEA260}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F0DFC8B-8625-4EFC-BFD8-F76F46DEA260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BA6C9B-FD42-4965-88A6-AD85228443A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BA6C9B-FD42-4965-88A6-AD85228443A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BA6C9B-FD42-4965-88A6-AD85228443A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BA6C9B-FD42-4965-88A6-AD85228443A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
