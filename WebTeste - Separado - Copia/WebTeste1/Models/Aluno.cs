@@ -22,7 +22,7 @@ namespace WebTeste
         [Range(typeof(DateTime), "01/01/1950", "01/01/2022", ErrorMessage = "O ano de nascimento do aluno deve ser pelo menos 1950 e no máximo 01/01/2022")]
         public DateTime? Nascimento { get; set; }
 
-        [Display]
+        [StringLength(14, MinimumLength = 11, ErrorMessage = "CPF deve ter 11 dígitos.")]
         public string? CPF { get; set; }
 
         public override bool Equals(Object aluno)

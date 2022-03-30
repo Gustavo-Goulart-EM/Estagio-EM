@@ -8,6 +8,46 @@ html {
   }
 }
 
+#tblAluno {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tblAluno td, #tblAluno th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tblAluno tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tblAluno tr:hover {
+    background-color: #ddd;
+}
+
+    #tblAluno th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        vertical-align: central;
+        background-color: #4C9A6D;
+        color: white;
+    }
+
+table {
+    text-align: center;
+    vertical-align: middle;
+    border: 0.5px solid;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
 .editarExcluir a {
     color: #FFFFFF;
     text-decoration: none;

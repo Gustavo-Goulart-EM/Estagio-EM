@@ -108,7 +108,7 @@ namespace WebTeste.Controllers
                 }
                 if (cpfComTodosDigitosIguais)
                 {
-                    ModelState.AddModelError("CPF", "CPF com todos dígitos iguais são inválidos.");
+                    //ModelState.AddModelError("CPF", "CPF's com todos dígitos iguais são inválidos.");
                 }
                 int penultimoDigito = (soma * 10) % 11;
                 if (penultimoDigito == 10)
@@ -138,7 +138,7 @@ namespace WebTeste.Controllers
             if (!string.IsNullOrEmpty(aluno.CPF) && repositorioAluno.GetAll().Any(alunoAdicionado => alunoAdicionado.CPF != null &&
                     alunoAdicionado.CPF.Equals(aluno.CPF) && !alunoAdicionado.Equals(aluno)))
             {
-                ModelState.AddModelError("CPF", "CPF inserido já está sendo utilizado por outro usuário.");
+                ModelState.AddModelError("CPF", "CPF inserido já está sendo utilizado por outro aluno.");
             }
             if(!string.IsNullOrEmpty(aluno.Nascimento.ToString())){
                 if (aluno.Nascimento?.Day >= DateTime.DaysInMonth((int)(aluno.Nascimento?.Year), (int)(aluno.Nascimento?.Month)))
@@ -237,7 +237,7 @@ namespace WebTeste.Controllers
                 }
                 if (cpfComTodosDigitosIguais)
                 {
-                    ModelState.AddModelError("CPF", "CPF com todos dígitos iguais são inválidos.");
+                    ModelState.AddModelError("CPF", "CPF's com todos dígitos iguais são inválidos.");
                 }
                 int penultimoDigito = (soma * 10) % 11;
                 if (penultimoDigito == 10)
@@ -267,7 +267,7 @@ namespace WebTeste.Controllers
             if (!string.IsNullOrEmpty(aluno.CPF) && repositorioAluno.GetAll().Any(alunoAdicionado => alunoAdicionado.CPF != null &&
                     alunoAdicionado.CPF.Equals(aluno.CPF) && !alunoAdicionado.Equals(aluno)))
             {
-                ModelState.AddModelError("CPF", "CPF inserido já está sendo utilizado por outro usuário.");
+                ModelState.AddModelError("CPF", "CPF inserido já está sendo utilizado por outro aluno.");
             }
 
             if (!string.IsNullOrEmpty(aluno.Nascimento.ToString())) 
