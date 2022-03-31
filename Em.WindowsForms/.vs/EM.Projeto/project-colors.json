@@ -60,7 +60,12 @@
       "ProjectGuid": "4f0dfc8b-8625-4efc-bfd8-f76f46dea260",
       "DisplayName": "Escolar Manager",
       "ColorIndex": 10
+    },
+    "f2ba6c9b-fd42-4965-88a6-ad85228443a4": {
+      "ProjectGuid": "f2ba6c9b-fd42-4965-88a6-ad85228443a4",
+      "DisplayName": "Escolar Manager",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 12
 }

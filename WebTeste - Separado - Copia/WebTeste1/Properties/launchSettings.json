@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "WebTeste1": {
+    "EM-web": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

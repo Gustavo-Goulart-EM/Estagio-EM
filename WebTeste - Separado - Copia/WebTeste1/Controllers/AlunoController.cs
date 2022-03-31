@@ -108,7 +108,7 @@ namespace WebTeste.Controllers
                 }
                 if (cpfComTodosDigitosIguais)
                 {
-                    //ModelState.AddModelError("CPF", "CPF's com todos dígitos iguais são inválidos.");
+                    ModelState.AddModelError("CPF", "CPF's com todos dígitos iguais são inválidos.");
                 }
                 int penultimoDigito = (soma * 10) % 11;
                 if (penultimoDigito == 10)
