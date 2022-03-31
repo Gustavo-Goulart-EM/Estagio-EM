@@ -65,7 +65,9 @@ namespace WebTeste
         }
         public Aluno GetByMatricula(int matricula)
         {
+#pragma warning disable CS8603 // Possible null reference return.
             return Get(x => x.Matricula == matricula).FirstOrDefault();
+#pragma warning restore CS8603 // Possible null reference return.
         }
         public IEnumerable<Aluno> GetByContendoNoNome(string parteDoNome)
         {

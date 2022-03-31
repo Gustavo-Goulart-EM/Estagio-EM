@@ -141,7 +141,9 @@ namespace WebTeste.Controllers
                 ModelState.AddModelError("CPF", "CPF inserido já está sendo utilizado por outro aluno.");
             }
             if(!string.IsNullOrEmpty(aluno.Nascimento.ToString())){
+#pragma warning disable CS8629 // Nullable value type may be null.
                 if (aluno.Nascimento?.Day >= DateTime.DaysInMonth((int)(aluno.Nascimento?.Year), (int)(aluno.Nascimento?.Month)))
+#pragma warning restore CS8629 // Nullable value type may be null.
                 {
                     ModelState.AddModelError("Data de nascimento", "Dias devem seguir as regras de cada mês. Insira uma data válida.");
                 }
@@ -295,11 +297,11 @@ namespace WebTeste.Controllers
             return View(aluno);
         }
         //POST: Aluno/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int matricula)
+        public ActionResult Delete([Bind(include: "Matricula, Nome, Sexo, Nascimento, CPF")] Aluno aluno)
         {
-            Aluno alunoParaDeletar = repositorioAluno.GetByMatricula(matricula);
+            Aluno alunoParaDeletar = repositorioAluno.GetByMatricula((int)aluno.Matricula);
             repositorioAluno.Remove(alunoParaDeletar);
             return RedirectToAction("Index");
         }
