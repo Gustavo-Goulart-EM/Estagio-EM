@@ -14,7 +14,7 @@ html {
     width: 100%;
 }
 
-#tblAluno td, #tblAluno th, #tblAluno div {
+#tblAluno td, #tblAluno th {
     border: 1px solid #ddd;
     padding: 8px;
 }
