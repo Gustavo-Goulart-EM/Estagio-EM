@@ -14,7 +14,7 @@ html {
     width: 100%;
 }
 
-#tblAluno td, #tblAluno th {
+#tblAluno td, #tblAluno th, #tblAluno div {
     border: 1px solid #ddd;
     padding: 8px;
 }
@@ -27,14 +27,14 @@ html {
     background-color: #ddd;
 }
 
-    #tblAluno th {
-        padding-top: 12px;
-        padding-bottom: 12px;
-        text-align: center;
-        vertical-align: central;
-        background-color: #4C9A6D;
-        color: white;
-    }
+#tblAluno th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    vertical-align: central;
+    background-color: #4C9A6D;
+    color: white;
+}
 
 table {
     text-align: center;
@@ -47,6 +47,13 @@ td {
     vertical-align: middle;
 }
 
+#tblAluno button {
+    max-width: 100%;
+    background: 0;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
 
 .editarExcluir a {
     color: #FFFFFF;

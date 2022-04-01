@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Aluno>
 @{
-    ViewBag.Title = "Alunos";
+    ViewBag.Title = "Tabela de Alunos";
 }
 
 <div class="d-flex justify-content-between">
@@ -87,7 +87,6 @@
                                     <i class="bi bi-pencil text-light"></i> Editar
                                 </button>
                             </a>
-
                             <a href = "@Url.ActionLink("Delete", "Aluno", new { item.Matricula })">
                                 <button type="button" class= "btn btn-danger">
                                     <i class="bi bi-trash text-white"></i> Excluir
