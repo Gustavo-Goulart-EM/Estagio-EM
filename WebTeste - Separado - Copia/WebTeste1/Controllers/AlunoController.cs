@@ -141,9 +141,7 @@ namespace WebTeste.Controllers
                 ModelState.AddModelError("CPF", "CPF inserido já está sendo utilizado por outro aluno.");
             }
             if(!string.IsNullOrEmpty(aluno.Nascimento.ToString())){
-#pragma warning disable CS8629 // Nullable value type may be null.
                 if (aluno.Nascimento?.Day >= DateTime.DaysInMonth((int)(aluno.Nascimento?.Year), (int)(aluno.Nascimento?.Month)))
-#pragma warning restore CS8629 // Nullable value type may be null.
                 {
                     ModelState.AddModelError("Data de nascimento", "Dias devem seguir as regras de cada mês. Insira uma data válida.");
                 }
